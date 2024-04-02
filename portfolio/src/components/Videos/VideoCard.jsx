@@ -2,22 +2,22 @@ import React from "react";
 
 import { getImageUrl } from "../../utils";
 
-export const VideoCard = ({ video }) => {
-    return ( <div>
-        <img 
-            src={getImageUrl(video.imageSrc)} 
-            alt={`Image of ${video.title}`}
-        />
-        <h3>{video.title}</h3>
-        <p>{video.description}</p>
+export const VideoCard = ({ 
+    video: {title, imageSrc, description, skills, demo, source} 
+}) => {
+    return ( 
+    <div>
+        <img src={getImageUrl(imageSrc)} alt={`Image of ${title}`}/>
+        <h3>{title}</h3>
+        <p>{description}</p>
         <ul>
-            {video.skills.map((skill, id) => {
-                <li key={id}>{tag}</li>;
+            {skills.map((skill, id) => {
+                <li key={id}>{skill}</li>;
             })}
             </ul>
             <div>
-                <a href={video.demo}>Demo</a>
-                <a href={video.source}>Source</a>
+                <a href={demo}>Demo</a>
+                <a href={source}>Source</a>
             </div>
         </div>
     );

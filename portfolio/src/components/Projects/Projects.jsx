@@ -3,7 +3,7 @@ import React from "react";
 import styles from './Projects.module.css';
 import skills from "../../data/skills.json";
 import projects from "../../data/projects.json";
-import { getImageUrl } from "../../utils";
+import { getImageUrl } from "../../utils/getImageUrl";
 
 export const Projects = () => {
     return (
