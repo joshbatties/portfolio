@@ -2,6 +2,7 @@
 My portfolio website where I will host my personal and professional projects and aspirations!
 
 # TODO:
+- Fix file structure
 - README
 - Captions Home 
 - Change contact me button Home
