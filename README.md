@@ -1,7 +1,6 @@
 # portfolio
 
 # TODO:
-- Fix file structure
 - README
 - Captions Home 
 - Change contact me button Home
