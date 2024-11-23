@@ -19,7 +19,7 @@ export const About = () => {
                     <div className={styles.aboutItemText}>
                         <h3>Education</h3>
                         <p>
-                            I am currently studying Commerce & Computer Science at Monash University in Melbourne, Australia. My specializations are in Data Science & Finance.
+                            I am currently studying Commerce & Computer Science at Monash University in Melbourne, Australia. My majors are in Data Science & Finance.
                         </p>
                     </div>
                 </li>
